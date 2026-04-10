@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lab Blitz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game-box">
+        <h1>🧪 Lab Blitz</h1>
+
+        <p id="question">
+            What is the chemical symbol of Sodium?
+        </p>
+
+        <div class="options">
+            <button onclick="checkAnswer('A')">A) So</button>
+            <button onclick="checkAnswer('B')">B) Na</button>
+            <button onclick="checkAnswer('C')">C) Sd</button>
+            <button onclick="checkAnswer('D')">D) Sm</button>
+        </div>
+
+        <p id="result"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
