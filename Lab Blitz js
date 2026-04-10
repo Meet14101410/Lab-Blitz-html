@@ -1,0 +1,13 @@
+// Lab Blitz JavaScript
+
+function checkAnswer(option) {
+    let result = document.getElementById("result");
+
+    if (option === 'B') {
+        result.textContent = "✅ Correct! Sodium symbol is Na.";
+        result.style.color = "green";
+    } else {
+        result.textContent = "❌ Wrong! Try again.";
+        result.style.color = "red";
+    }
+}
