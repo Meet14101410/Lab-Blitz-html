@@ -1,0 +1,45 @@
+/* Lab Blitz CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #00c9ff, #92fe9d);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.game-box {
+    background: white;
+    width: 320px;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px gray;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.options button {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.options button:hover {
+    background-color: #2980b9;
+}
+
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #27ae60;
+}
